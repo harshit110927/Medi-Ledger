@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MediLedger</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>MediLedger – Medical Report Verification</h1>
+
+    <h3>Add Medical Report</h3>
+    <input id="reportID" placeholder="Report ID"><br>
+    <input id="patientName" placeholder="Patient Name"><br>
+    <input id="type" placeholder="Report Type"><br>
+    <input id="date" type="date"><br>
+    <button onclick="addReport()">Submit Report</button>
+
+    <h3>Verify Report</h3>
+    <input id="verifyID" placeholder="Enter Report ID">
+    <button onclick="verifyReport()">Verify</button>
+    <pre id="output"></pre>
+</body>
+</html>
